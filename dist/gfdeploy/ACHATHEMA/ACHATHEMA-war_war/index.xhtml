@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition 
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:p="http://primefaces.org/ui"
+    template="./ui.xhtml">
+
+
+    <ui:define name="title">
+        ACHA - Home
+    </ui:define>
+
+    <ui:define name="content">
+        Hello from Kadon
+        <br />
+        <h:link class="btn btn-bg-gradient-x-blue-purple-2" outcome="auth" value="Authenticate here" />
+
+        <br />
+        <br />
+
+        <div class="col-lg-4 col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title"></h4>
+                    <h6 class="card-subtitle text-muted">Patients &amp; Data</h6>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                                               
+                    </p>
+                    <a href="#" class="card-link">Create</a>
+                    <a href="#" class="card-link">View</a>
+                </div>
+                <div class="card-footer border-top-blue-grey border-top-lighten-5 text-muted">
+                    <span class="float-left">1 day ago</span>
+                </div>
+            </div>
+        </div>
+    </ui:define>
+
+</ui:composition>
+
